@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # 手动部署
 # git push -f git@github.com:Neveryu/vue-cms.git master:gh-pages
 # 自动部署
-git push -f "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+git push -f "https://${GH_TOKEN}@${GH_REF}" master
 
 cd -
